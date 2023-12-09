@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+body{
+    margin-top: 50vh;
+    background-color: rgb(250, 212, 217) ;
+    font-family: Gugi;
+}
+
+.coupon-code:hover .tool-tip {
+    display: block;
+  }
+  .tool-tip {
+    display: none;
+    position: absolute;
+    bottom: 25px;
+    width: 250px;
+    height: auto;
+    mix-blend-mode: multiply;
+  }
+  .coupon-code {
+    color: var(--clr-example-one);
+    cursor: pointer;
+  }
+  .coupon-code:hover {
+    color: var(--clr-example-two);
+    cursor: pointer;
+  }
+  
+.items {
+    position: relative;
+    font-size: 20px;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 100px;
+}
+
+.tap{
+  position: relative;
+  font-size: 20px;
+  margin: 0;
+  margin-top: 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 100px;
+
+  font-family: Gugi;
+}
+
+.red-text{
+  font-family: Bungee Spice ;
+  font-weight: 800;
+}
